@@ -46,6 +46,8 @@ I also examined the network services and their versions identified by Nmap.
 
 The Nmap scan examined the 100 most common TCP ports and identified 18 open ports and 82 closed ports.
 
+![Nmap Scan](evidence/nmap.png)
+
 ### 2. Service Identification
 
 The Nmap scan identified multiple network services and their versions on the target host, including:
