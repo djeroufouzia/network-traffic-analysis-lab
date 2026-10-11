@@ -72,6 +72,7 @@ I also examined the FTP traffic on port 21 and observed a server response identi
 - TCP SYN packets were used to initiate TCP connection requests.
 - SYN-ACK responses indicated that some ports were accepting TCP connection attempts.
 - The FTP server returned a banner identifying vsFTPd 2.3.4.
+  
   ![FTP Banner](screenshots/FTP.png)
 
 ### 5. Security Findings
@@ -93,6 +94,4 @@ Identifying network services and their versions is an important step in a securi
 
 This lab provided practical experience in network scanning and traffic analysis within an isolated virtual environment. By combining Nmap and Wireshark, I learned how to identify network services, examine TCP connection attempts, and interpret responses from a target host.
 
-## Disclaimer
 
-This lab was conducted in an isolated virtual environment using Kali Linux and Metasploitable 2 for educational purposes. All scanning activities were limited to the authorized lab target.
