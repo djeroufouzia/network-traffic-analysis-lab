@@ -72,7 +72,7 @@ I also examined the FTP traffic on port 21 and observed a server response identi
 - TCP SYN packets were used to initiate TCP connection requests.
 - SYN-ACK responses indicated that some ports were accepting TCP connection attempts.
 - The FTP server returned a banner identifying vsFTPd 2.3.4.
-  [FTP Banner](screenshots/FTP.png)
+  ![FTP Banner](screenshots/FTP.png)
 
 ### 5. Security Findings
 
